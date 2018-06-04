@@ -4263,18 +4263,7 @@
             i || o.append(e))
         }
         return n.ready = function() {
-            var n, r, o, a = i.attr("data-wf-status"), f = i.attr("data-wf-domain") || "";
-            /\.webflow\.io$/i.test(f) && u.hostname !== f && (a = !0),
-            a && !c && (e = e || (n = t('<a class="w-webflow-badge"></a>').attr("href", "https://webflow.com?utm_campaign=brandjs"),
-            r = t("<img>").attr("src", "https://d1otoma47x30pg.cloudfront.net/img/webflow-badge-icon.60efbf6ec9.svg").css({
-                marginRight: "8px",
-                width: "16px"
-            }),
-            o = t("<img>").attr("src", "https://d1otoma47x30pg.cloudfront.net/img/webflow-badge-text.6faa6a38cd.svg"),
-            n.append(r, o),
-            n[0]),
-            s(),
-            setTimeout(s, 500))
+            
         }
         ,
         n
